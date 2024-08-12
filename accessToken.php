@@ -1,7 +1,7 @@
 <?php
 //MY MPESA API KEYS
-$consumerKey = "0O48LfXKBSCqN1D9T0sSKuBgnKJp7SyudHVZeGCmpvfMRAmp";//Daraja consumer key
-$consumerSecret = "jQAf6t4JQJbPhMYP3weJu0l74JA5eBTi4aDvrYvZWiCyVQ9MLleEOU8AbJHtp6nO";//Daraja consumer secret
+$consumerKey = "mkiNkGBwfGMJAKEX0n2STVAY1spjgo1nomTqa1ZZokQ9g89e";//Daraja consumer key
+$consumerSecret = "Q6XgrxqItF3K3qrjiK2Jei6KY3rsNNzS2sSxae07PqBlUqm67hvPGrRAuzFE7yLy";//Daraja consumer secret
 //ACCESS TOKEN URL
 $access_token_url = 'https://sandbox.safaricom.co.ke/oauth/v1/generate?grant_type=client_credentials';//Generated from DARAJA API interface under authorization.
 $headers = ['Content-Type:application/json; charset=utf8'];

@@ -3,13 +3,13 @@
 include 'accessToken.php';
 date_default_timezone_set('Africa/Nairobi');
 $processrequestUrl = 'https://sandbox.safaricom.co.ke/mpesa/stkpush/v1/processrequest';
-$callbackurl = 'http://omollostephen-001-site1.ctempurl.com/daraja/callback.php';
+$callbackurl = 'https://omollostephen-001-site1.ctempurl.com/daraja/callback.php';
 $passkey = "bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919";
 $BusinessShortCode = '174379';
 $Timestamp = date('YmdHis');
 // ENCRIPT  DATA TO GET PASSWORD
 $Password = base64_encode($BusinessShortCode . $passkey . $Timestamp);
-$phone = '254703131090';//phone number to receive the stk push
+$phone = '254111756609';//phone number to receive the stk push
 $money = '1';
 $PartyA = $phone;
 $PartyB = '254708374149';

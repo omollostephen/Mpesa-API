@@ -9,7 +9,7 @@ $passkey = "bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919";
 // ENCRIPT  DATA TO GET PASSWORD
 $Password = base64_encode($BusinessShortCode . $passkey . $Timestamp);
 //THIS IS THE UNIQUE ID THAT WAS GENERATED WHEN STK REQUEST INITIATED SUCCESSFULLY
-$CheckoutRequestID = 'ws_CO_09082024154834053703131090';//ws_CO_09082024154834053703131090
+$CheckoutRequestID = 'ws_CO_12082024113642854703131090';//ws_CO_09082024154834053703131090
 $queryheader = ['Content-Type:application/json', 'Authorization:Bearer ' . $access_token];
 # initiating the transaction
 $curl = curl_init();
@@ -39,6 +39,6 @@ if (isset($data_to->ResultCode)) {
   } elseif ($ResultCode == '0') {
     $massage = "0 The transaction is successfully";
   }
+  echo $massage;
 }
 
-echo $massage;

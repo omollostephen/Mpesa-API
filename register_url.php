@@ -1,30 +1,10 @@
 <?php
 // include 'accessToken.php';
-// $registerurl = 'https://sandbox.safaricom.co.ke/mpesa/c2b/v1/registerurl';
-// $BusinessShortCode = '174379';
-// $confirmationUrl = 'http://omollostephen-001-site1.ctempurl.com/daraja/confirmation_url.php';
-// $validationUrl = 'http://omollostephen-001-site1.ctempurl.com/daraja/validation_url.php';
-// $curl = curl_init();
-// curl_setopt($curl, CURLOPT_URL, $registerurl);
-// curl_setopt($curl, CURLOPT_HTTPHEADER, array('Content-Type:application/json', 'Authorization:Bearer ' . $access_token));
-// $curl_post_data = array(
-//     'ShortCode' => $BusinessShortCode,
-//     'ResponseType' => 'Completed',
-//     'ConfirmationURL' => $confirmationUrl,
-//     'ValidationURL' => $validationUrl
-// );
-// $data_string = json_encode($curl_post_data);
-// curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
-// curl_setopt($curl, CURLOPT_POST, true);
-// curl_setopt($curl, CURLOPT_POSTFIELDS, $data_string);
-// echo $curl_response = curl_exec($curl);
-
-//INCLUDE ACCESS TOKEN FILE
 include 'accessToken.php';
-$registerurl = 'https://sandbox.safaricom.co.ke/mpesa/c2b/v1/registerurl';
+$registerurl = 'https://sandbox.safaricom.co.ke/mpesa/c2b/v1/registerurl';//https://sandbox.safaricom.co.ke/mpesa/c2b/v1/registerurl
 $BusinessShortCode = '174379';
-$confirmationUrl = 'http://omollostephen-001-site1.ctempurl.com/daraja/confirmation_url.php';
-$validationUrl = 'http://omollostephen-001-site1.ctempurl.com/daraja/validation_url.php';
+$confirmationUrl = 'https://omollostephen-001-site1.ctempurl.com/confirmation_url.php';
+$validationUrl = 'https://omollostephen-001-site1.ctempurl.com/validation_url.php';
 $curl = curl_init();
 curl_setopt($curl, CURLOPT_URL, $registerurl);
 curl_setopt($curl, CURLOPT_HTTPHEADER, array(
@@ -42,4 +22,5 @@ curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($curl, CURLOPT_POST, true);
 curl_setopt($curl, CURLOPT_POSTFIELDS, $data_string);
 echo $curl_response = curl_exec($curl);
+?>
 

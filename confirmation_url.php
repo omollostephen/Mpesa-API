@@ -5,7 +5,7 @@ $response = '{
 "ResultDesc": "Confirmation Received Successfully"
 }';
 $mpesaResponse = file_get_contents('php://input');
-$logFile = "C2BMpesaResponse.json";//successfull transaction datya is sent to this file
-$log = fopen($logFile, 'a');
+$logFile = "C2bPesaResponse.json";
+$log = fopen($logFile, "a");
 fwrite($log, $mpesaResponse);
-fclose();
+fclose($log);

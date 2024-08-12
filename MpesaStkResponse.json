@@ -7,8 +7,7 @@
             "ResultDesc": "The initiator information is invalid."
         }
     }
-}
-{
+}{
     "Body": {
         "stkCallback": {
             "MerchantRequestID": "3b82-4048-94fd-4503f39b858f555160",
@@ -31,6 +30,119 @@
                     {
                         "Name": "TransactionDate",
                         "Value": 20240809154848
+                    },
+                    {
+                        "Name": "PhoneNumber",
+                        "Value": 254703131090
+                    }
+                ]
+            }
+        }
+    }
+}{
+    "Body": {
+        "stkCallback": {
+            "MerchantRequestID": "2654-4b64-97ff-b827b542881d618637",
+            "CheckoutRequestID": "ws_CO_11082024193000658703131090",
+            "ResultCode": 1037,
+            "ResultDesc": "DS timeout user cannot be reached"
+        }
+    }
+}{
+    "Body": {
+        "stkCallback": {
+            "MerchantRequestID": "1c5b-4ba8-815c-ac45c57a3db01930462",
+            "CheckoutRequestID": "ws_CO_11082024193535264703131090",
+            "ResultCode": 1032,
+            "ResultDesc": "Request cancelled by user"
+        }
+    }
+}{
+    "Body": {
+        "stkCallback": {
+            "MerchantRequestID": "6e86-45dd-91ac-fd5d4178ab524242889",
+            "CheckoutRequestID": "ws_CO_12082024105434656703131090",
+            "ResultCode": 1032,
+            "ResultDesc": "Request cancelled by user"
+        }
+    }
+}{
+    "Body": {
+        "stkCallback": {
+            "MerchantRequestID": "7071-4170-a0e4-8345632bad441933803",
+            "CheckoutRequestID": "ws_CO_12082024105504313703131090",
+            "ResultCode": 2001,
+            "ResultDesc": "The initiator information is invalid."
+        }
+    }
+}{
+    "Body": {
+        "stkCallback": {
+            "MerchantRequestID": "1c5b-4ba8-815c-ac45c57a3db01938488",
+            "CheckoutRequestID": "ws_CO_12082024105528461703131090",
+            "ResultCode": 1032,
+            "ResultDesc": "Request cancelled by user"
+        }
+    }
+}{
+    "Body": {
+        "stkCallback": {
+            "MerchantRequestID": "7071-4170-a0e4-8345632bad441933821",
+            "CheckoutRequestID": "ws_CO_12082024105619211703131090",
+            "ResultCode": 1032,
+            "ResultDesc": "Request cancelled by user"
+        }
+    }
+}{
+    "Body": {
+        "stkCallback": {
+            "MerchantRequestID": "1c5b-4ba8-815c-ac45c57a3db01938500",
+            "CheckoutRequestID": "ws_CO_12082024105747192703131090",
+            "ResultCode": 1037,
+            "ResultDesc": "DS timeout user cannot be reached"
+        }
+    }
+}{
+    "Body": {
+        "stkCallback": {
+            "MerchantRequestID": "6e86-45dd-91ac-fd5d4178ab524243117",
+            "CheckoutRequestID": "ws_CO_12082024110809579703131090",
+            "ResultCode": 1037,
+            "ResultDesc": "DS timeout user cannot be reached"
+        }
+    }
+}{
+    "Body": {
+        "stkCallback": {
+            "MerchantRequestID": "6e86-45dd-91ac-fd5d4178ab524243127",
+            "CheckoutRequestID": "ws_CO_12082024110845321703131090",
+            "ResultCode": 1037,
+            "ResultDesc": "DS timeout user cannot be reached"
+        }
+    }
+}{
+    "Body": {
+        "stkCallback": {
+            "MerchantRequestID": "f1e2-4b95-a71d-b30d3cdbb7a71224759",
+            "CheckoutRequestID": "ws_CO_12082024113642854703131090",
+            "ResultCode": 0,
+            "ResultDesc": "The service request is processed successfully.",
+            "CallbackMetadata": {
+                "Item": [
+                    {
+                        "Name": "Amount",
+                        "Value": 1.00
+                    },
+                    {
+                        "Name": "MpesaReceiptNumber",
+                        "Value": "SHC1SECFDT"
+                    },
+                    {
+                        "Name": "Balance"
+                    },
+                    {
+                        "Name": "TransactionDate",
+                        "Value": 20240812113650
                     },
                     {
                         "Name": "PhoneNumber",
