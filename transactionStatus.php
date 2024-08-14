@@ -16,8 +16,8 @@ $request_data = array(
     'OriginatorConversationID' => $OriginatorConversationID,
     'PartyA' => $BusinessShortCode,
     'IdentifierType' => '4',
-    'ResultURL' => 'https://omollostephen-001-site1.ctempurl.com/daraja/resultURL.php',
-    'QueueTimeOutURL' => 'https://omollostephen-001-site1.ctempurl.com/daraja/QueueTimeOutURL.php',
+    'ResultURL' => 'https://omollostephen-001-site1.ctempurl.com/daraja/resulturl.php',
+    'QueueTimeOutURL' => 'https://omollostephen-001-site1.ctempurl.com/daraja/queuetimeouturl.php',
     'Remarks' => 'OK',
     'Occasion' => 'OK',
 );
